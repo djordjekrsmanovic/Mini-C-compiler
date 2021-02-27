@@ -1,0 +1,23 @@
+// test ok komentar
+//RETURN: 9
+int main(){
+	int a; //definisanje promjenljive
+	int b,c,d;
+	/* dodjeljivanje vrijednosti promjenljivoj */
+	 a=2;
+	 b=3;
+	 c=4;
+	
+	/*
+		*izvrsavanje
+				**operacija
+						***nad 
+		****promjenljivim
+	*/
+
+	d=a+c;
+	a++;
+	b=a+d;
+	
+	return b;
+}

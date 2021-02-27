@@ -1,0 +1,30 @@
+//OPIS: semanticka greska void tip parametra funkcije
+	void f(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+	}
+	int g(unsigned q){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+c;
+		return a;
+	}
+
+	int p(void p){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+p+c;
+		return;
+	}
+int main(){
+	int a,b;
+	unsigned q;
+	//f();
+	a=g(q);
+	b=p(a);
+	return 0;
+}

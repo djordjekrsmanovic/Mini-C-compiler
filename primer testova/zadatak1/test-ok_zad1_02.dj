@@ -1,0 +1,14 @@
+//OPIS: mogucnost definisanja praznog bloka
+//RETURN: 0
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	int f;
+	
+	{}
+	return 0;
+}

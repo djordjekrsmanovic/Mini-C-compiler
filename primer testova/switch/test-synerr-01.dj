@@ -1,0 +1,11 @@
+//OPIS sintaksna greska ; iza case
+int main(){
+	int a;
+	a=4;
+	switch(a){
+		case 1; break;
+		case 2: break;
+	}
+	return a;
+}
+	

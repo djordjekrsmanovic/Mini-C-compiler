@@ -1,0 +1,8 @@
+//OPIS: condition operator
+//RETURN: 7
+int main(){
+	int a,b;
+	a=4;
+	b=(a==4)? 7 : 1;
+	return b;
+}

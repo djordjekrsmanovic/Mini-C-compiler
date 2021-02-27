@@ -1,0 +1,10 @@
+//OPIS: sabiranje sa void
+	void f(){
+		return;
+	}
+int main(){
+	int a,b;
+	f();
+	b=void + a;
+	return 0;
+}

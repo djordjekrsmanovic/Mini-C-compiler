@@ -1,0 +1,8 @@
+//OPIS ponovno deklarisanje globalne promjenljive
+int a,b,a;
+
+int main(){
+	int a,b,c;
+	a=4;
+	return a;
+}

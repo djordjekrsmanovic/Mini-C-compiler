@@ -1,0 +1,12 @@
+//OPIS int funkcija nema nikako navedenu povratnu vrijednost
+//RETURN 0
+int  f(){
+		int a;
+		a=2;
+		return;
+	}
+int main(){
+	int a,b;
+	a=f();
+	return 0;
+}

@@ -1,0 +1,26 @@
+//OPIS nekompatibilni tipovi parametara i argumenata
+int function(int a,int b,unsigned e,unsigned f,int d){
+	a++;
+	b++;
+	a=a+b;
+	e++;
+	return 5;
+}
+
+int main(){
+	int a,b,c,d;
+	unsigned e,f,g;
+
+	a=1;
+	b=2;
+	c=3;
+	a=a + 2;
+	b=b + 3;
+	c=c + 4;
+
+	e=2u;
+	f=3u;
+	f=e+f;
+	function(e,b,e,f,a);
+	return 0;
+}

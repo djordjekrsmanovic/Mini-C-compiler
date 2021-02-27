@@ -1,0 +1,33 @@
+//OPIS: redefinicija promjenljive prilikom deklaracije u unutrasnjem bloku
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	int f;
+	
+	{
+		int a;
+		int b;
+		int d;
+		c=a+b;
+		{
+			d=c;
+			if (a == b){
+				d++;
+			}else{
+				c++;
+				f();
+				{
+					int a,b,c,d,e,f,a;
+					a=5;
+					a++;
+				}
+
+			}
+		}
+	}
+	return 0;
+}

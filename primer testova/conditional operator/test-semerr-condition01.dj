@@ -1,0 +1,7 @@
+//OPIS: semanticka greska nisu istog tipa promjenljive za poredjenje
+
+unsigned d;
+int main(){
+	int a,b;
+	a=a + (a==d) ? 1:2;
+}

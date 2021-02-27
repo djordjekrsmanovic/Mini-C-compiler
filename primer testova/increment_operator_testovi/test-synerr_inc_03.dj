@@ -1,0 +1,14 @@
+//OPIS: increment operator primjenjen na konstantu
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=a++;
+	a++;
+	1++;
+	b=b + 1 + c++;
+	return 0;
+}

@@ -1,0 +1,18 @@
+//OPIS: increment operator
+//RETURN 4
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=1;
+	b=1;
+	c=1;
+	a=a++;
+	a++;
+	
+	b=a + 1 + c++;
+	return b;
+}

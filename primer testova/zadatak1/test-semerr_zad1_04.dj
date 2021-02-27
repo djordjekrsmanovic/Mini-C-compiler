@@ -1,0 +1,19 @@
+//OPIS: definisana promjenljiva u bloku se koristi u increment operatoru
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	
+	{
+		int a;
+		int b;
+		int k;
+		k=2;
+		k++;
+	}
+	k++;
+	return 2;
+}

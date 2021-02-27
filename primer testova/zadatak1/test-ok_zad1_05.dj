@@ -1,0 +1,38 @@
+//OPIS: poziv funkcije nad promjenljivom koja nije definisana u unutrasnjem bloku ali je definisana u spoljasnjem
+//RETURN: 5
+	int f(int f){
+		return f;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	int f;
+	f=5;
+	
+	{
+		int a;
+		int b;
+		int d;
+		c=a+b;
+		a=1;
+		b=2;
+		{
+			d=c;
+			if (a == b){
+				d++;
+			}else{
+				c++;
+				f(c);
+				{
+					int a,b;
+					a=5;
+					a++;
+					return f(f);
+				}
+
+			}
+		}
+	}
+	return 0;
+}

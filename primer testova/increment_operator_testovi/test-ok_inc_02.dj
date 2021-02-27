@@ -1,0 +1,22 @@
+//OPIS: increment operator
+//RETURN: 8
+	int f(){
+		int a,b;
+		a=2;
+		b=3;
+		a++;
+		b=a++;
+		b++;
+		a=a++ + b++;
+		return a;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=a++;
+	a++;
+	
+	b=b + 1 + c++;
+	return f();
+}

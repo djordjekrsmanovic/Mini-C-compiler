@@ -1,0 +1,14 @@
+// komentar ok
+//RETURN: 2
+int main(){
+	int a; //definisanje promjenljive
+	int b,c,d;
+	/* dodjeljivanje vrijednosti promjenljivoj */
+	 a=2;
+	 b=3;
+	 c=4;
+	
+	/* komentar * komentar int *a,*b,*\d,c,d,e,f; a++;a-- */
+	
+	return a;
+}

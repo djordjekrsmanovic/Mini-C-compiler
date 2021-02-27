@@ -1,0 +1,7 @@
+//OPIS: semeanticka greska promjenliva nije deklarisana
+int main(){
+	while(a<0){
+		a++;
+	}
+	return a;
+}

@@ -1,0 +1,27 @@
+//OPIS funkcije sa vise parametara
+//RETURN:10
+int function(int a,int b,unsigned e,unsigned f){
+	a++;
+	b++;
+	a=a+b;
+	e++;
+	f=e;
+	return a;
+}
+
+int main(){
+	int a,b,c,d;
+	unsigned e,f,g;
+
+	a=1;
+	b=2;
+	c=3;
+	a=a + 2;
+	b=b + 3;
+	c=c + 4;
+
+	e=2u;
+	f=3u;
+	f=e+f;
+	return function(a,b,e,f);
+}

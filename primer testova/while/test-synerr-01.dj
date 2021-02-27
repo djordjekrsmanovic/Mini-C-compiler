@@ -1,0 +1,14 @@
+//OPIS: sintaksna greska nedostaje zagrada
+int f(int a,int b,int c){
+	return 0;
+}
+int main(){
+	int a,b;
+	a=1;
+	b=0;
+	while(a<10)
+		a++;
+		b = b + 1;
+	}
+	return a;
+}

@@ -1,0 +1,10 @@
+//OPIS:condtion operator zbir
+//RETURN: 9
+int main(){
+	int a,b,c;
+	a=5;
+	b=4;
+	c=7;
+	c=(a<1)? 1:2 + 3 +b;
+  return c;
+}

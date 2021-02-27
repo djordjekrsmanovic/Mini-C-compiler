@@ -1,0 +1,10 @@
+//OPIS prvo deklarisane funkcije pa zatim globalne promjenljive
+int f(){
+	return 1;
+}
+int d;
+int main(){
+	int a
+	a=4;
+	return a;
+}

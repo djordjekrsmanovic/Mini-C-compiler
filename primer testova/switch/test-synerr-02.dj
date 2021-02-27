@@ -1,0 +1,11 @@
+//OPIS sintaksna greska nema literala iza case
+int main(){
+	int a;
+	a=4;
+	switch(a){
+		case 1: a=4;break;
+		case 2: b=5;break;
+		case :
+	}
+	return a;
+}

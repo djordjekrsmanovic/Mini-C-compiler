@@ -1,0 +1,10 @@
+//OPIS: provjera tip void
+//RETURN: 0
+	void f(){
+		return;
+	}
+int main(){
+	int a,b;
+	f();
+	return 0;
+}

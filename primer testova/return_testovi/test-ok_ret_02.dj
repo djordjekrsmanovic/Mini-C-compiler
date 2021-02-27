@@ -1,0 +1,16 @@
+//OPIS: funkcija ima 2 return naredbe
+//RETURN: 1
+int f(){
+		int a;
+		a=5;
+		return 1;
+		return a;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	
+	c=a + c++;
+	return f();
+}

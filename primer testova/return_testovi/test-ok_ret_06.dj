@@ -1,0 +1,38 @@
+//OPIS: test ok
+//RETURN: 7
+	void f(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+	}
+	int g(unsigned q){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+b+a;
+		if (c>5){
+			c++;
+			return c;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+
+	void p(int p){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+p+c;
+		return;
+	}
+int main(){
+	int a,b;
+	unsigned q;
+	f();
+	g(q);
+	p(a);
+	return g(2u);
+}

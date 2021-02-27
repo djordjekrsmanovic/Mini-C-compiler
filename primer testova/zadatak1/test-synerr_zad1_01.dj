@@ -1,0 +1,13 @@
+//OPIS: nema zagrade za zatvaranje unutrasnjeg bloka
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	{
+		int a,b;
+		a++;
+	return 0;
+}

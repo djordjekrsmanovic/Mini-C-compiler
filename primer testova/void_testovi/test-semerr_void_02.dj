@@ -1,0 +1,11 @@
+//OPIS: void kao tip parametra funckije
+	void f(int a,unsigned b,void c){
+		a=a + 1;
+		b=2u;
+	}
+int main(){
+	int a,c;
+	unsigned b;
+	f(a,b,c);
+	return 0;
+}

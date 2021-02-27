@@ -1,0 +1,27 @@
+//OPIS: definisanje lokalnih promjenljivih unutar bloka
+//RETURN: 7
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=10;
+	b=5;
+	c=10;
+	{	
+		int d,e;
+		a++;
+		b=b-c;
+		{
+			int f,g;
+			d++;
+			b++;
+		}
+	}
+	a=a++;
+	a++;
+	b=b + 1 + c;
+	return b;
+}

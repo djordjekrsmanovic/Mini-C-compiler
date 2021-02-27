@@ -1,0 +1,9 @@
+//OPIS: globalne promjenljive
+//RETURN: 13
+int x;
+int main(){
+	int y;
+	y=5;
+	x=y + 8;
+	return x;
+}

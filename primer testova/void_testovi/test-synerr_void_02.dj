@@ -1,0 +1,17 @@
+//opis povratna vrijednost je tip void
+int f(int a,int b){
+	a=a+b;
+	b++;
+	a++;
+	return void;
+}
+int main(){
+	int a,b,c,d;
+
+	a=1;
+	b=2;
+	c=3;
+	d=4;
+	
+	return 0;
+}

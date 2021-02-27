@@ -1,0 +1,16 @@
+//OPIS: promjenljiva definisana u unutrasnjem bloku se koristi u spoljasnjem
+	int f(int k){
+		return k;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	
+	{
+		int a,b,d;
+	}
+
+	a=f(d);
+	return 2;
+}

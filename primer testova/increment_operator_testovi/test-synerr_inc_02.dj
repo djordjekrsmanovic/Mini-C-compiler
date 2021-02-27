@@ -1,0 +1,13 @@
+//OPIS: 2 increment operatora
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=a++;
+	a++ ++ ;
+	b=b + 1 + c++;
+	return 0;
+}

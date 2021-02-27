@@ -1,0 +1,14 @@
+//OPIS: semanticka greska promjenljiva i literal iz case nisu istog tipa
+//RETURN: 1
+int main(){
+	int a,b;
+	a=3;
+	b=0;
+	switch(a){
+		case 1u: a=5; break;
+		case 2: {b=4; break;} 
+		case 3: {a=7; }
+		default: {a=1; b=b + 5;}
+	}
+	return a;
+}

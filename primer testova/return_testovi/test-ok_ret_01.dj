@@ -1,0 +1,12 @@
+//OPIS void funkcija nema return 
+//RETURN: 5
+	void f(){
+		int a;
+		a=2;
+	}
+int main(){
+	int a,b;
+	a=5;
+	f();
+	return a;
+}

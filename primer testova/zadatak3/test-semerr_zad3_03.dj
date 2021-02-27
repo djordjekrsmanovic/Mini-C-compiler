@@ -1,0 +1,22 @@
+//OPIS: promjenljiva i literal nisu istog tipa
+	int f(int a,int b){
+		branch [a;1,3u,5]
+		one->a=a + 1;
+		two->a=a + 3;
+		three->a=b + 5;
+		other->a=b + a;
+		
+	}
+int main(){
+	int b;
+	int c;
+	branch [a;1,3,5]
+		one->a=a + 1;
+		two->a=a + 3;
+		three->a=a + 5;
+		other->a=a - 3;
+
+	c=f(a,b);
+	return 0;
+	
+}

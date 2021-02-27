@@ -1,0 +1,7 @@
+//OPIS: , ispred definicije promjenljive
+int ,b,c
+
+int main(){
+	int a;
+	return a;
+}

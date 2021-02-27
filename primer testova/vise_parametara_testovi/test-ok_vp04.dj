@@ -1,0 +1,27 @@
+//OPIS: zbir funkcija
+//RETURN:6
+int f1(int a,int b){
+	int c;
+	c=a+b;
+	return c;
+}
+
+int f2(int a,int b){
+	int c;
+	c=a++;
+	return c;
+}
+
+int f3(int a,int b){
+	int c;
+	c=b++;
+	return c;
+}
+
+int main(){
+	int a,b,c;
+	a=1;
+	b=2;
+	c=f1(a,b) + f2(a,b) + f3(a,b);
+	return c;
+}

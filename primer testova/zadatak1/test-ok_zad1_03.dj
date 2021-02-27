@@ -1,0 +1,31 @@
+//OPIS: nedefinisana promjenljiva u bloku ali je definisana u vanjskim blokovima
+//RETURN 15;
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=15;
+	{
+		int a;
+		int b;
+		int d;
+		a=5;
+		b=5;
+		d=6;
+		c=a+b;
+
+		{
+			d=c;
+			if (a == b){
+				d++;
+			}else{
+				c++;
+			}
+			a=d;
+		}
+	}
+	return a;
+}

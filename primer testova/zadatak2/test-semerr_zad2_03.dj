@@ -1,0 +1,13 @@
+//OPIS: vrijednost literatora 1 manja od vrijednosti literatora 2 
+	int f(){
+		return 1;
+	}
+int main(){
+	int a,b;
+	loop(a,10,11,1){
+		b=b+a;
+	}
+	loop(b,10,5,1)
+		b++;
+
+}

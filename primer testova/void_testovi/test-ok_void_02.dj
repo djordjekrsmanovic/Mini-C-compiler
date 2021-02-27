@@ -1,0 +1,28 @@
+//OPIS: provjera tip void
+//RETURN: 0
+	void f(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+	}
+	int g(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+		return a;
+	}
+
+	void p(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+		return;
+	}
+int main(){
+	int a,b;
+	f();
+	return 0;
+}

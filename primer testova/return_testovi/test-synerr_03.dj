@@ -1,0 +1,20 @@
+//OPIS deklarisanje promjenljive koja se zove return
+int f(int b,int c){
+	int d;
+	int return;
+	d=b+c;
+	a=a+b;
+}
+
+int main(){
+	int a,b,c;
+	unsigned e,f,g;
+	
+	a=5;
+	b=4;
+	c=3;
+	
+	a=f(b,c);
+
+	return 0;
+}

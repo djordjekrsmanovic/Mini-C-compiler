@@ -1,0 +1,26 @@
+//OPIS: branch statment
+//RETURN: 3
+	int f(int a,int b){
+		branch [a;1,3,5]
+		one->a=a + 1;
+		two->a=a + 3;
+		three->a=b + 5;
+		other->a=b - 3;
+		return a;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=5;
+	b=6;
+	branch [a;1,3,5]
+		one->a=a + 1;
+		two->a=a + 3;
+		three->a=a + 5;
+		other->a=a - 3;
+
+	c=f(a,b);
+	return c;
+	
+}

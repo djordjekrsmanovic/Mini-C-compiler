@@ -1,0 +1,30 @@
+//OPIS: test ok
+//RETURN: 8
+	void f(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+	}
+	int g(unsigned q){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+c;
+		return a;
+	}
+
+	void p(int p){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+p;
+		return c;
+	}
+int main(){
+	int a,b;
+	unsigned q;
+	f();
+	g(q);
+	return p(5);
+}

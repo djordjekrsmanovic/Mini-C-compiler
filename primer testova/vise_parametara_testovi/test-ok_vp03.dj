@@ -1,0 +1,16 @@
+//OPIS: zbir funkcija
+//RETURN: 15
+int f(int a,int b,int c){
+	int d;
+	d=c+a+c;
+	return d;
+}
+int main(){
+	int a;
+	int b;
+	int c;
+	c=5;
+	a=3;
+	b=f(1,2,a) + 5 + f(1,1,1);
+  return b;
+}

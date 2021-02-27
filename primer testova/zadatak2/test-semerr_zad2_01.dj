@@ -1,0 +1,13 @@
+//OPIS: promjenljiva u loop izrazu nije deklarisana
+	int f(){
+		return 1;
+	}
+int main(){
+	int b;
+	loop(a,30,2,1){
+		b=b+a;
+	}
+	loop(b,10,5,1)
+		b++;
+
+}

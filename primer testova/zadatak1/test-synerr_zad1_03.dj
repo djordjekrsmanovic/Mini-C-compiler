@@ -1,0 +1,15 @@
+//OPIS: pogresne zagrade u bloku
+	int f(){
+		return 1;
+	}
+int main(){
+	int a;
+	int b;
+	int c;
+	a=a++;
+	{
+		b=b + 1 + c++;
+		int c;
+	)
+	return 0;
+}

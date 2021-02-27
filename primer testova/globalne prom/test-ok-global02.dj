@@ -1,0 +1,16 @@
+//OPIS: globalne promjenljive u funkciji
+//RETURN: 3
+
+int x,y;
+
+int f(int x){
+	y=x++;
+	return x;
+}
+
+int main(){
+   y=1;
+	 x=2;
+	 return f(x);
+}
+	

@@ -1,0 +1,16 @@
+//OPIS: jedna deklaracija sa dve promenljive
+//RETURN: 4
+int k(unsigned a){
+	return 2;
+}
+int f(int b,int k){
+	 b=b+k;
+	 return b;
+}
+int main(int k) {
+    int a,b;
+		int c;
+		a=k(2u);
+		b=f(1,3);
+		return b;
+}

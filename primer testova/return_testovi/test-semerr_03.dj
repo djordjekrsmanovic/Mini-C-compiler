@@ -1,0 +1,37 @@
+//OPIS: pogresna povratna vrijednost
+	void f(){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b;
+	}
+	int g(unsigned q){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+c;
+		if (c>5){
+			c++;
+			return a;
+		}
+		else
+		{
+			return 1u; //greska
+		}
+	}
+
+	void p(int p){
+		int a,b,c;
+		a=1;
+		b=2;
+		c=a+b+p+c;
+		return;
+	}
+int main(){
+	int a,b;
+	unsigned q;
+	f();
+	g(q);
+	p(a);
+	return 0;
+}

@@ -1,0 +1,6 @@
+//OPIS: sintaksna greska nedostaju zagrade kod uslova
+int main(){
+	int a,b,c;
+	a=a + b + a==1 ? 1:2;
+	return 0;
+}

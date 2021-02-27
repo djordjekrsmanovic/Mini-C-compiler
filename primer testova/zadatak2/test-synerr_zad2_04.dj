@@ -1,0 +1,14 @@
+//OPIS: pogresne zagrade u loop iskazu
+	int f(){
+		return 1;
+	}
+int main(){
+	int a,b;
+	loop[a,31,2,5]{
+		a++;
+		b=b+a;
+	}
+	loop(b,10,5,1)
+		b++;
+
+}

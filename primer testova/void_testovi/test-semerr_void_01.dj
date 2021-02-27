@@ -1,0 +1,10 @@
+//OPIS: void kao tip promjenljive
+	void f(int g){
+		return;
+	}
+int main(){
+	int a,b;
+	void c;
+	f(a);
+	return 0;
+}
